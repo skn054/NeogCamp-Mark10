@@ -1,6 +1,6 @@
 # neoG-markTen-Cash Resgister Manager
 
-Created app where we have bill amount and cash amount given by customer. Here we cacluate how mush we need to give cash back to customer.
+Created app where we have bill amount and cash amount given by customer. Here we cacluate amount to be returned in change to the customer with the minimum number of notes.
 
 ## Technology used:
 * HTML
@@ -9,4 +9,4 @@ Created app where we have bill amount and cash amount given by customer. Here we
 
 ## Live Project
 
-* [CashRegisterManagerApp](https://customercashresturn.netlify.app/)
+* [CashRegisterManagerApp](https://cashregistermngr.netlify.app/)
