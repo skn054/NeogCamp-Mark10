@@ -60,9 +60,9 @@ function calculateButtonClickHandler() {
     refundAmount_errorMessage.classList.remove("rfd-amt");
     refundAmount_errorMessage.classList.add("refund-amt-err");
     refundAmount_errorMessage.innerText =
-      "You need " +
-      refundAmount +
-      " more cash from Customer to complete bill payment.";
+      "You need INR " +
+        refundAmount +
+      " more from Customer to complete bill payment.";
   }else if (billAmount == cashAmount) {
     refundAmount_errorMessage.classList.remove("refund-amt-err");
     refundAmount_errorMessage.innerText = "Refund amount is: " + refundAmount;
